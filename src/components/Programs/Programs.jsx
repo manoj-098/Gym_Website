@@ -12,8 +12,8 @@ const Programs = () => {
             <span className='stroke-text'>TO SHAPE YOU</span>
         </div>
         <div className="programs-data">
-            {programsData.map((program)=>{return(
-            <div className='data-description' key={program.id}>
+            {programsData.map((program,index)=>{return(
+            <div className='data-description' key={index}>
                 {program.image}
                 <span>{program.heading}</span>
                 <span>{program.details}</span>

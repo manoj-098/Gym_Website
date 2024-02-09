@@ -37,7 +37,7 @@ const Pricing = () => {
                     </div>
 
                     <div className="plan-footer">
-                        <span>See more benefits -></span>
+                        <span>See more benefits --</span>
                         {/* <img src={Arrow} alt="" /> */}
                     </div>    
                     <button className='btn'>Join now</button>
