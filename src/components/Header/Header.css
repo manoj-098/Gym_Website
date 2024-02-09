@@ -1,0 +1,69 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bars-div{
+    cursor: pointer;
+    height:2rem;
+    width:2rem;
+    background-color: var(--appColor);
+    padding:0px;
+    display: none;
+    position: fixed;
+    padding: 2px;
+    border-radius:3px;
+    right: 1rem;
+    z-index: 99;
+}
+.bars{
+    margin:4px;
+    cursor: pointer;
+    height:1.5rem;
+    width:1.5rem;
+}
+.logo
+{
+    height:3rem;
+    width:10rem;
+}
+
+
+.header-list
+{
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    color:white;
+    li{
+        list-style-type: none;
+    }
+    li .Link:hover{
+        cursor:pointer;
+        color:var(--orange);
+        
+    }
+}
+@media screen and (max-width:768px)
+{
+    .header-list{
+        position:fixed;
+        flex-direction: column;
+        top:0rem;
+        right:1rem;
+        padding:1rem 1.5rem;
+        z-index:100;
+        background-color: var(--appColor);
+    }
+    .bars-div{
+        display:block;
+    }
+    .open{
+        display:flex;
+    }
+    .close{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,131 @@
+.reasons{
+    display:flex;
+    padding:0 2rem;
+    /* border:1px solid red; */
+    /* justify-content: space-around; */
+    gap:3rem;
+    margin-top:-4rem;
+    .reasons-images{
+        display:flex;
+        gap:2rem;
+        /* flex:2; */
+    }
+    .left-r{
+        flex:1;
+        /* border:1px solid red; */
+        img{
+            height:28rem;
+            width:12rem;
+        } 
+
+        }
+    .middle-r{
+            flex:2;
+            display: flex;
+            gap:1rem;
+            flex-direction: column;
+            margin-right: 4rem;
+            img{
+                height:16rem;
+            }
+            .bottom-box{
+                display: flex;
+                /* height:12rem; */
+                /* border: 1px solid red; */
+                gap:1rem;
+                img{
+                    height:10rem;
+                    width:12rem;
+                }
+            }
+        }
+    .right-r{
+        flex:4;
+        .span{
+            font-weight: bolder;
+            font-size:1rem;
+            color:var(--orange);
+        }
+        .reason-box{
+            display: flex;
+            flex-direction: column;
+            font-weight: bolder;
+            color:white;
+             div:nth-of-type(1)
+             {
+                padding:1rem 0;
+                span{
+                    font-size:3rem;
+                  }
+             }
+             div{
+                padding:.5rem 0;
+                display: flex;
+                gap:1rem;
+                img{
+                    height:2rem;
+                }
+             }
+        }
+        .footer-r{
+            margin:1rem 0;
+            width:fit-content;
+            color:var(--gray);
+        }
+        .footer-images{
+            display: flex;
+            gap:1rem;
+            img{
+                width:2.5rem;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .reasons{
+        flex-direction: column;
+        padding:0 1rem;
+        gap:1rem;
+        .reasons-images{
+            gap:0.4rem;
+        }
+        .left-r{
+            flex:1;
+            img{
+                height:18rem;
+                width:7rem;
+            } 
+            }
+        .middle-r{
+                gap:0.8rem;
+                img{
+                    height:10rem;
+                    width:13rem;
+                }
+                .bottom-box{
+                    gap:0.4rem;
+                    img{
+                        height:7rem;
+                        width:6.4rem;
+                    }
+                }
+            }
+        .right-r{
+            .reason-box{
+                display: flex;
+                flex-direction: column;
+                font-weight: bolder;
+                color:white;
+                 div:nth-of-type(1)
+                 {
+                    span{
+                        font-size:2rem;
+                      }
+                 }
+         }
+      }
+    }
+}

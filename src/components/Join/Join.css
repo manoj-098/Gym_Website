@@ -1,0 +1,83 @@
+.join{
+    display: flex;
+    padding:1.5rem 2rem;
+    gap:10rem;
+    .left-j
+    {
+        display: flex;
+        flex-direction: column;
+        font-size:3rem;
+        color:white;
+        font-weight: bolder;
+     >:nth-child(1)
+     {
+        padding-top:1rem;
+        border-top:5px solid orange;
+     }
+    }
+    .right-j
+    {
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding:2rem;
+            gap:2rem;
+            background:var(--caloryCard);
+            text-align: center;
+            span{
+                color:white;
+                font-size: 1.5rem;
+                font-weight: bolder;
+            }
+            input{
+                border: none;
+                outline:none;
+                padding:1rem 1rem;
+                background: none;
+                background-color: gray;
+                font-weight: bold;
+                width:20rem;
+            }
+            ::placeholder{
+                color:white;
+            }
+            button{
+                width:100%;
+                background-color: rgb(255, 119, 0);
+                color: white;
+                padding:1rem;
+            }
+        }
+
+    }
+}
+@media screen and (max-width:768px)
+{
+    .join{
+        flex-direction: column;
+        padding:1rem;
+        gap:5rem;
+        .left-j
+        {
+            font-size:2rem;
+        }
+        .right-j
+        {
+    
+            form{
+                padding:1rem;
+                gap:2rem;
+                span{
+                    font-size: 1rem;
+                }
+                input{
+                    padding:1rem .5rem;
+                    width:90%;
+                }
+            }
+    
+        }
+    }
+}

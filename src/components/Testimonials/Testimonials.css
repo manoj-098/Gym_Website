@@ -1,0 +1,145 @@
+.testimonials
+{
+    padding:1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    .left-t
+    {
+        display:flex;
+        flex:1.1;
+        flex-direction: column;
+        gap:2rem;
+    }
+    .left-t>:nth-child(1)
+    {
+        color:var(--orange);
+        font-weight:bolder;
+    }
+    .left-t>:nth-child(2),
+    .left-t>:nth-child(3)
+    {
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    .left-t>:nth-child(3)
+    {
+        color:white;
+    }
+    .left-t>:nth-child(4)
+    {
+        color:white;
+        line-height: 2rem;
+        letter-spacing: 2px;
+    }
+    .left-t>:nth-child(5)
+    {
+        color:var(--orange);
+        span{
+            color:white;
+        }
+    }
+    .right-t{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .right-t>:nth-child(1)
+    {
+        position:absolute;
+        height:20rem;
+        width:17rem;
+        border: 2px solid var(--orange);
+        right:9rem;
+    }
+    .right-t>:nth-child(2)
+    {
+        position:absolute;
+        height:20rem;
+        width:17rem;
+        background: var(--planCard);
+        right:7rem;
+        top:2rem;
+    }
+    .right-t>:nth-child(3)
+    {
+        height:20rem;
+        width:17rem;
+        object-fit: cover;
+        position: absolute;
+        right:8rem;
+        top:1rem;
+    }
+    .right-t>:nth-child(4)
+    {
+        display: flex;
+        gap:1rem;
+        width: fit-content;
+        position:absolute;
+        bottom:1rem; 
+    }
+    .arrows>img{
+        width:1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .testimonials
+{
+    margin-top:-4rem;
+    padding:1rem;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    .left-t
+    {
+        gap:1rem;
+    }
+
+    .left-t>:nth-child(2),
+    .left-t>:nth-child(3)
+    {
+        font-size: 2rem;
+    }
+    .left-t>:nth-child(3)
+    {
+        /* color:white; */
+    }
+    .left-t>:nth-child(4)
+    {
+        /* color:white; */
+        /* line-height: 2rem; */
+        letter-spacing: 1px;
+
+    }
+    .right-t{
+        flex-direction: column;
+    }
+    .right-t>:nth-child(1)
+    {
+        position:relative;
+        right:0rem;
+        left:1rem;
+    }
+    .right-t>:nth-child(2)
+    {
+        position:absolute;
+        right:0rem;
+    }
+    .right-t>:nth-child(3)
+    {
+        right:1.5rem;
+        top:1rem;
+    }
+    .right-t>:nth-child(4)
+    {
+        bottom:-6rem;
+    }
+    .arrows>img{
+        width:1.2rem;
+        height: 1.2rem;
+    }
+}
+}
