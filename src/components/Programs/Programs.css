@@ -21,13 +21,13 @@
             flex-direction: column;
             justify-content: center;
             /* flex:1; */
-            /* gap:1rem; */
+            gap:1rem;
             background-color: gray;
             padding:1.2rem 2rem;
             span{
                 color:white;
                 font-size:1rem;
-                padding-top: 1rem;
+                /* padding-top: 1rem; */
             }
             :nth-child(1){
                 fill:white;
