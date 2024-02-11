@@ -30,15 +30,15 @@ const Hero = () => {
                     <span>BODY</span>
                 </div>   */}
                 <motion.div 
-                 initial={{left:'0'}}
-                 whileInView={{left:'5rem'}}
+                 initial={{left:'0vw'}}
+                 whileInView={{left:'15%'}}
                  transition={{...transition}}>
-                    <span className='stroke-text'>SHAPE</span>
+                    <span className='stroke-text'>SHAPE </span>
                     <span>YOUR</span>
                 </motion.div>
                 <motion.div 
                 initial={{left:'0'}}
-                whileInView={{left:'5rem'}}
+                whileInView={{left:'15%'}}
                 transition={{...transition}}>
                     <span>IDEAL </span>
                     <span>BODY</span>
