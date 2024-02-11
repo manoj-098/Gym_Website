@@ -94,34 +94,29 @@
 @media screen and (max-width:768px){
     .pricing{
         margin-top:-2rem;
-        .pricing-blur-left{
-            display:none;
-        }
-        .header-p{
-            flex-direction: column;
-            font-size:2rem;
-            gap:1rem;
-        }
-        .pricing-cards{
-            flex-direction: column;
-            margin:2rem 0;
-            .plan
-            {
-                gap:1rem;
-            }
-
-            .plan:nth-child(2)
-            {
-                background: var(--planCard);
-                transform: scale(1);
-                svg{
-                    fill:white;
-                }
-                button{
-                    color:orange;
-                }
-            } 
-        
-        }
+    }
+    .header-p{
+        flex-direction: column;
+        font-size:2rem;
+        gap:1rem;
+    }
+    .pricing-cards{
+        flex-direction: column;
+        margin:2rem 0;
+    }
+    .plan
+    {
+        gap:1rem;
+    }
+    .plan:nth-child(2)
+    {
+        background: var(--planCard);
+        transform: scale(1);
+    } 
+    .plan:nth-child(2) svg{
+        fill:white;
+    }
+    .plan:nth-child(2) button{
+        color:orange;
     }
 }
