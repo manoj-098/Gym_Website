@@ -17,7 +17,7 @@
         gap:1rem;
         padding: 2rem;
         .data-description{
-            display: flex;
+            /* display: flex; <-------------------------- */
             flex-direction: column;
             justify-content: center;
             /* flex:1; */
@@ -45,16 +45,16 @@
                 line-height: 1.5rem;
             }
             .join-now{
-                display:flex;
+                /* display:flex; <--------------------*/
                 gap:1rem;
                 align-items: center;
                 /* border:1px solid red; */
-                padding:0;
-                margin:0;
+                /* padding:0; */
+                /* margin:0; */
                 :nth-child(1)
                 {
                     /* width:fit-content; */
-                    display: flex;
+                    /* display: flex; <-------------- */
                     align-items: center;
                     width:5rem;
                     height:3rem;
