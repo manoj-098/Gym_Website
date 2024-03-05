@@ -21,5 +21,5 @@ To get started with FitClub-Starter, follow these steps:
 `Open` the index.html file in your preferred web browser.\
 Feel free to explore the website, discover the offered services, and engage with the interactive features.
 
-## Contributing
+## Contributions
 Contributions are welcome! If you have ideas for improvements or new features, please submit a pull request. For major changes, open an issue first to discuss the proposed changes.
